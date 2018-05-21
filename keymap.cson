@@ -12,6 +12,8 @@
   'ctrl-w ctrl-k': 'pane:split-up-and-copy-active-item'
   'ctrl-h': 'pane:show-previous-item'
   'ctrl-l': 'pane:show-next-item'
+  'escape': 'unset!'
+  'ctrl-[': 'core:cancel'
 
 'atom-text-editor':
   'ctrl-t': 'unset!'
