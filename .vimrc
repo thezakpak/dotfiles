@@ -45,10 +45,6 @@ set wrapscan
 set noswapfile
 set nobackup
 set background=dark
-imap <c-h> <Left>
-imap <c-j> <Down>
-imap <c-k> <Up>
-imap <c-l> <Right>
 nnoremap j gj
 nnoremap k gk
 noremap <Space> <nop>
