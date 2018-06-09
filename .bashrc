@@ -1,4 +1,5 @@
 #!/bin/sh
+
 # User specific aliases and functions
 alias rm='rm -i'
 alias cp='cp -i'
