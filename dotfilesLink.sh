@@ -12,5 +12,5 @@ ln -sf ${PWD}/.atom/styles.less ~/.atom/styles.less
 # ATOM
 apm install --packages-file ${PWD}/.atom/package.list
 # If you want to update package.list, run this command.
-# apm list --installed --bare packages.list
+# apm list --installed --bare package.list
 
