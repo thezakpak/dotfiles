@@ -156,7 +156,9 @@
       animations: false
       panelContrast: true
   "atom-package-deps":
-    ignored: []
+    ignored: [
+      "linter-ui-default"
+    ]
   core:
     allowPendingPaneItems: false
     automaticallyUpdate: false
