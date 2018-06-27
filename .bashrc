@@ -37,6 +37,9 @@ alias cd-s=cdSelect
 #open by finder
 alias f='open .'
 
+# code grep
+alias codegrep='find . -path ./.git -prune -o -path ./log -prune -o -type f -print0 | xargs -0 grep -n -E $1'
+
 #atom
 function atomOptimize() {
 	cd ~/.atom
