@@ -145,7 +145,7 @@
     use: {}
   "atom-material-ui":
     colors:
-      abaseColor: "#2c8ff3"
+      abaseColor: "#2684f1"
       predefinedColor: "Blue"
     tabs:
       compactTabs: true
