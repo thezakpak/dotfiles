@@ -145,7 +145,7 @@
     use: {}
   "atom-material-ui":
     colors:
-      abaseColor: "#2c8ff3"
+      abaseColor: "#3181f3"
       predefinedColor: "Blue"
     tabs:
       compactTabs: true
@@ -232,6 +232,7 @@
   "tree-view":
     alwaysOpenExisting: true
     autoReveal: true
+    hideVcsIgnoredFiles: true
   welcome:
     showOnStartup: false
 ".blade.html.php.text":
