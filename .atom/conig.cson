@@ -145,7 +145,11 @@
     use: {}
   "atom-material-ui":
     colors:
+<<<<<<< HEAD
       abaseColor: "#3181f3"
+=======
+      abaseColor: "#2684f1"
+>>>>>>> cb4417fd3b4650c8439223ee5f6c986905ce70ea
       predefinedColor: "Blue"
     tabs:
       compactTabs: true
@@ -193,7 +197,7 @@
   "disable-keybindings": {}
   docblockr: {}
   editor:
-    fontSize: 10
+    fontSize: 9
     scrollPastEnd: true
     showIndentGuide: true
   "exception-reporting":

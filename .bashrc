@@ -25,7 +25,7 @@ function cdSelect() {
 	dirs=`ls -a`
 	PS3="Select directory > "
         echo 'Directory list:'
-        stty erase ^H
+        stty erase ^?
 	select dir in ${dirs}
 	do
 		cd ${dir}
@@ -36,6 +36,9 @@ alias cd-s=cdSelect
 
 #open by finder
 alias f='open .'
+
+# code grep
+alias codegrep='find . -path ./.git -prune -o -path ./log -prune -o -type f -print0 | xargs -0 grep -n -E $1'
 
 #atom
 function atomOptimize() {
@@ -87,7 +90,7 @@ function gitCheckoutLocalBranch() {
 	branches=`git branch | grep -v -e"^\*" | tr -d ' '`
 	PS3="Select branch > "
 	echo 'Branch list:'
-        stty erase ^H
+        stty erase ^?
 	select branch in ${branches}
 	do
 		git checkout ${branch}
@@ -98,7 +101,7 @@ alias g-c=gitCheckoutLocalBranch
 
 # create a new branch and checkout it
 function gitCreateAndCheckoutBranch() {
-        stty erase ^H
+        stty erase ^?
         echo -n "Which is a new branch name?"
         read var1
         git checkout -b ${var1}
@@ -110,7 +113,7 @@ function gitCreateAndCheckoutRemoteBranch() {
 	branches=`git branch -r | grep -v -e"^\*" | tr -d ' '`
         PS3="Select branch > "
         echo 'Branch list:'
-        stty erase ^H
+        stty erase ^?
         select branch in ${branches}
         do
   		echo -n "What is the new branch name?"
@@ -126,7 +129,7 @@ function gitDeleteLocalBranch() {
         branches=`git branch | grep -v -e"^\*" | tr -d ' '`
         PS3="Select branch > "
         echo 'Branch list:'
-        stty erase ^H
+        stty erase ^?
         select branch in ${branches}
         do
                 git branch -D ${branch}
@@ -152,7 +155,7 @@ alias g-p-c=gitPushCurrentBranch
 
 # add, commit, push
 function gitSet() {
-      stty erase ^H
+      stty erase ^?
       echo -n "What files do you add?"
       read -r var1
       git add ${var1}
