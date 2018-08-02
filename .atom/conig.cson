@@ -145,7 +145,7 @@
     use: {}
   "atom-material-ui":
     colors:
-      abaseColor: "#2684f1"
+      abaseColor: "#2196f3"
       predefinedColor: "Blue"
     tabs:
       compactTabs: true
@@ -159,6 +159,8 @@
     ignored: [
       "linter-ui-default"
     ]
+  "autocomplete-paths":
+    maxFileCount: 100000
   core:
     allowPendingPaneItems: false
     automaticallyUpdate: false
@@ -177,8 +179,9 @@
     destroyEmptyPanes: false
     disabledPackages: [
       "linter"
-      "github"
+      "welcome"
       "git-diff"
+      "background-tips"
     ]
     followSymlinks: false
     packagesWithKeymapsDisabled: [
@@ -193,7 +196,7 @@
   "disable-keybindings": {}
   docblockr: {}
   editor:
-    fontSize: 9
+    fontSize: 12
     scrollPastEnd: true
     showIndentGuide: true
   "exception-reporting":
@@ -207,7 +210,11 @@
   "linter-phpmd":
     executablePath: "/usr/local/bin/anyenv/envs/phpenv/shims/phpmd"
   "linter-ui-default":
+    decorateOnTreeView: "Files and Directories"
+    hidePanelWhenEmpty: false
     panelHeight: 300
+    showPanel: true
+    showProviderName: true
   minimap:
     plugins:
       "git-diff": true
@@ -231,7 +238,7 @@
     autoToggle: true
   "tree-view":
     alwaysOpenExisting: true
-    autoReveal: true
+    focusOnReveal: false
   welcome:
     showOnStartup: false
 ".blade.html.php.text":
