@@ -197,7 +197,11 @@
   "disable-keybindings": {}
   docblockr: {}
   editor:
+<<<<<<< HEAD
     fontSize: 12
+=======
+    fontSize: 10
+>>>>>>> eb2873854dda27ad54278bcab68aeaa4822d2305
     scrollPastEnd: true
     showIndentGuide: true
   "exception-reporting":
