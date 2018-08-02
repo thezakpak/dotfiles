@@ -73,6 +73,7 @@
       beautify_on_save: true
     markdown:
       beautify_on_save: true
+      default_beautifier: "Tidy Markdown"
     marko:
       beautify_on_save: true
     mustache:
