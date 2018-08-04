@@ -13,6 +13,8 @@
       "atom-material-ui"
       "solarized-dark-syntax"
     ]
+  editor:
+    fontSize: 11
   "exception-reporting":
     userId: "196b7d7e-dd3b-47b0-99a5-553350899026"
   "linter-ui-default":
