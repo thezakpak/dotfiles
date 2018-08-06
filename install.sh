@@ -9,6 +9,6 @@ ln -sf ${PWD}/.atom/keymap.cson ${HOME}/.atom/keymap.cson
 ln -sf ${PWD}/.atom/snippets.cson ${HOME}/.atom/snippets.cson
 ln -sf ${PWD}/.atom/styles.less ${HOME}/.atom/styles.less
 
-# atom
+# For atom
 apm install --packages-file ${PWD}/.atom/package.list
 

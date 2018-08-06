@@ -26,7 +26,6 @@ function cdSelect() {
 	PS3="Select directory > "
         echo 'Directory list:'
         stty erase ^?
-        stty erase ^H
 	select dir in ${dirs}
 	do
 		cd ${dir}
@@ -102,7 +101,6 @@ alias g-c=gitCheckoutLocalBranch
 # create a new branch and checkout it
 function gitCreateAndCheckoutBranch() {
         stty erase ^?
-        stty erase ^H
         echo -n "Which is a new branch name?"
         read var1
         git checkout -b ${var1}
@@ -115,7 +113,6 @@ function gitCreateAndCheckoutRemoteBranch() {
         PS3="Select branch > "
         echo 'Branch list:'
         stty erase ^?
-        stty erase ^H
         select branch in ${branches}
         do
   	  	  echo -n "What is the new branch name?"
@@ -132,7 +129,6 @@ function gitDeleteLocalBranch() {
         PS3="Select branch > "
         echo 'Branch list:'
         stty erase ^?
-        stty erase ^H
         select branch in ${branches}
         do
                 git branch -D ${branch}
@@ -160,7 +156,6 @@ alias g-p-c=gitPushCurrentBranch
 function gitSet() {
       echo -n "What files do you add?"
       stty erase ^?
-      stty erase ^H
       read -r var1
       git add ${var1}
       git commit
