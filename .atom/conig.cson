@@ -1,11 +1,14 @@
 "*":
   "atom-material-ui":
     colors:
-      abaseColor: "#1b95ff"
+      abaseColor: "#22a9ff"
+  "atom-package-deps":
+    ignored: [
+      "linter-ui-default"
+    ]
   core:
     closeDeletedFileTabs: true
     disabledPackages: [
-      "minimap"
       "git-diff"
       "go-to-line"
       "welcome"
@@ -16,7 +19,8 @@
       "solarized-dark-syntax"
     ]
   editor:
-    fontSize: 11
+    fontSize: 16
+    showIndentGuide: true
   "exception-reporting":
     userId: "196b7d7e-dd3b-47b0-99a5-553350899026"
   "linter-ui-default":

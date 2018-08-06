@@ -11,7 +11,7 @@ alias rm-dsstore='find . -name ".DS_Store" -print -exec rm {} ";"'
 # Count total files in current directory
 function countFiles(){
 	dir=$1
-        find ${dir} -type f | wc -l
+  find ${dir} -type f | wc -l
 }
 alias count-f=countFiles
 
@@ -91,8 +91,6 @@ function gitCheckoutLocalBranch() {
 	branches=`git branch | grep -v -e"^\*" | tr -d ' '`
 	PS3="Select branch > "
 	echo 'Branch list:'
-        stty erase ^?
-        stty erase ^H
 	select branch in ${branches}
 	do
 		git checkout ${branch}
@@ -120,10 +118,10 @@ function gitCreateAndCheckoutRemoteBranch() {
         stty erase ^H
         select branch in ${branches}
         do
-  		echo -n "What is the new branch name?"
+  	  	  echo -n "What is the new branch name?"
         	read new_branch_name
         	git checkout -b ${new_branch_name} ${branch}
-                break
+          break
         done
 }
 alias g-c-b-r=gitCreateAndCheckoutRemoteBranch
@@ -160,9 +158,9 @@ alias g-p-c=gitPushCurrentBranch
 
 # add, commit, push
 function gitSet() {
+      echo -n "What files do you add?"
       stty erase ^?
       stty erase ^H
-      echo -n "What files do you add?"
       read -r var1
       git add ${var1}
       git commit
