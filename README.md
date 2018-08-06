@@ -1,5 +1,8 @@
 # Dotfiles
 This repository has my dotfiles.
 
-# How to stared
-`./dotfilesLink.sh`
+# Install dotfiles
+`./install.sh`
+
+# Update atom package list
+`./update_atom_package_list.sh`

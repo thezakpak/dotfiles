@@ -3,11 +3,13 @@
     colors:
       abaseColor: "#1b95ff"
   core:
+    closeDeletedFileTabs: true
     disabledPackages: [
       "minimap"
       "git-diff"
       "go-to-line"
       "welcome"
+      "about"
     ]
     themes: [
       "atom-material-ui"
