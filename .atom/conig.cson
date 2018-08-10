@@ -13,6 +13,9 @@
       "go-to-line"
       "welcome"
       "about"
+      "minimap-autohide"
+      "symbols-tree-view"
+      "open-on-github"
     ]
     themes: [
       "atom-material-ui"
