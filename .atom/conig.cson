@@ -7,6 +7,8 @@
       "linter-ui-default"
     ]
   core:
+    allowPendingPaneItems: false
+    automaticallyUpdate: false
     closeDeletedFileTabs: true
     disabledPackages: [
       "git-diff"
