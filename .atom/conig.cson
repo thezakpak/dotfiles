@@ -1,7 +1,7 @@
 "*":
   "atom-material-ui":
     colors:
-      abaseColor: "#1ca0fc"
+      abaseColor: "#22a2fc"
   "atom-package-deps":
     ignored: [
       "linter-ui-default"
