@@ -49,4 +49,3 @@ nnoremap j gj
 nnoremap k gk
 noremap <Space> <nop>
 syntax on
-colorscheme solarized
