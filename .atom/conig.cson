@@ -6,6 +6,7 @@
     ignored: [
       "linter-ui-default"
     ]
+  "city-lights-ui": {}
   core:
     allowPendingPaneItems: false
     automaticallyUpdate: false
@@ -17,13 +18,14 @@
       "about"
       "minimap-autohide"
       "open-on-github"
+      "file-icons"
     ]
     themes: [
-      "atom-material-ui"
-      "solarized-dark-syntax"
+      "city-lights-ui"
+      "city-lights-syntax"
     ]
   editor:
-    fontSize: 11
+    fontSize: 13
     scrollPastEnd: true
     showIndentGuide: true
   "exception-reporting":
