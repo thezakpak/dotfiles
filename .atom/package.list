@@ -24,7 +24,6 @@ laravel@0.7.1
 laravel-snippets@2.1.0
 less-than-slash@0.18.0
 linter@2.2.0
-linter-eslint@8.4.1
 linter-php@1.5.1
 linter-phpcs@1.6.8
 linter-phpmd@2.0.0
@@ -34,5 +33,6 @@ merge-conflicts@1.4.5
 open-recent@5.0.0
 react@0.18.0
 react-snippets@1.1.1
+tree-view-git-status@1.5.1
 vim-mode-plus@1.34.0
 

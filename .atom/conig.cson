@@ -19,6 +19,8 @@
       "minimap-autohide"
       "open-on-github"
       "file-icons"
+      "github"
+      "background-tips"
     ]
     themes: [
       "city-lights-ui"
