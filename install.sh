@@ -1,7 +1,7 @@
 #!/bin/sh
 ln -sf ${PWD}/.vimrc ${HOME}/.vimrc
 ln -sf ${PWD}/.tmux.conf ${HOME}/.tmux.conf
-ln -sf ${PWD}/.inputrc ${HOME}/.inputrc
+l -sf ${PWD}/.inputrc ${HOME}/.inputrc
 ln -sf ${PWD}/.bashrc ${HOME}/.bashrc
 ln -sf ${PWD}/.atom/conig.cson ${HOME}/.atom/config.cson
 ln -sf ${PWD}/.atom/init.coffee ${HOME}/.atom/init.coffee
