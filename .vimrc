@@ -45,7 +45,5 @@ set wrapscan
 set noswapfile
 set nobackup
 set background=dark
-nnoremap j gj
-nnoremap k gk
 noremap <Space> <nop>
 syntax on
