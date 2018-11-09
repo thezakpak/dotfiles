@@ -32,6 +32,7 @@
     showIndentGuide: true
   "exception-reporting":
     userId: "196b7d7e-dd3b-47b0-99a5-553350899026"
+  "linter-golinter": {}
   "linter-ui-default":
     panelHeight: 300
   minimap:
