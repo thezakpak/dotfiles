@@ -43,6 +43,7 @@
       "highlight-selectedDecorationsZIndex": 0
       "minimap-autohide": true
       "minimap-autohideDecorationsZIndex": 0
+  "tree-view": {}
 ".blade.html.php.text":
   editor:
     commentEnd: " --}}"
