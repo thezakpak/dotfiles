@@ -14,6 +14,7 @@
   'ctrl-l': 'pane:show-next-item'
   'escape': 'unset!'
   'ctrl-[': 'core:cancel'
+  'cmd-q' : 'unset!'
 
 'atom-text-editor':
   'ctrl-t': 'unset!'
