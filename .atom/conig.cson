@@ -28,7 +28,7 @@
       "city-lights-syntax"
     ]
   editor:
-    fontSize: 13
+    fontSize: 10
     scrollPastEnd: true
     showIndentGuide: true
     showInvisibles: true
@@ -45,10 +45,12 @@
       "highlight-selectedDecorationsZIndex": 0
       "minimap-autohide": true
       "minimap-autohideDecorationsZIndex": 0
-  "tree-view": {}
+  "tree-view":
+    hideVcsIgnoredFiles: true
   whitespace:
     ensureSingleTrailingNewline: false
-    ignoreWhitespaceOnlyLines: true
+    ignoreWhitespaceOnCurrentLine: false
+    keepMarkdownLineBreakWhitespace: false
     removeTrailingWhitespace: false
 ".blade.html.php.text":
   editor:
